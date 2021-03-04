@@ -1,0 +1,32 @@
+/*
+Positioning
+Box model
+Typographic
+Visual
+Misc
+*/
+
+.cv-block {
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  display: flex;
+
+  width: 500px;
+
+  background-color: #dbd7d7;
+  border-radius: 10px;
+
+}
+
+.photo {
+
+  width: 200px;
+
+  border-radius: 5px;
+}
+
+.name {
+  text-align: center;
+}
