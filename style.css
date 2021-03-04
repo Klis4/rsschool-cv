@@ -6,27 +6,112 @@ Visual
 Misc
 */
 
+ul {
+  margin: 5px;
+  padding-left: 23px;
+
+  list-style-type: disc;
+
+}
+
+p {  margin: 3px;}
+
+a { text-decoration-line: none;}
+
+h3 {
+  padding-left: 5px;
+  margin-bottom: 10px;
+
+  text-align: center;
+}
+
 .cv-block {
 
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
   display: flex;
 
-  width: 500px;
+  width: 650px;
 
-  background-color: #dbd7d7;
-  border-radius: 10px;
+  background-color: #c0b7b7;
+  border-radius: 20px;
 
+}
+
+.header {
+  
+  padding: 20px;
+  
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  background-color: #313131;
 }
 
 .photo {
 
-  width: 200px;
+  width: 220px;
 
-  border-radius: 5px;
+  border-radius: 70px;
 }
 
 .name {
+  margin-top: 0;
+
   text-align: center;
+  color: #d87300;
 }
+
+.skills-item,
+.contacts-item {  color: white;}
+
+.skills-header,
+.contacts-header {  
+  background-color: #d873007e;
+  border-radius: 5px;
+ }
+
+.react {  color: #be57ad86;}
+
+.c-sharp {  color: #4853b986;}
+
+.arduino {  color: #488cb986;}
+
+.git {  color: #7d7f8086;}
+
+.info {  padding: 20px;}
+
+.about-me-header,
+.code-header,
+.experience-header,
+.education-header,
+.english-header {
+
+  background-color: #313131e5;
+  color: #bebebed8;
+  border-radius: 5px;
+}
+
+.about-me-text {
+  padding-left: 5px;
+  padding-right: 5px;
+
+  text-indent: 20px;
+  color: #0e0e0ee0;
+}
+
+.quiz { color: #e47b04f5;}
+.quiz:hover,
+.notifications-center:hover { font-weight: 800;}
+
+.notifications-center { color: #0408e4f5;}
+
+.experience-text,
+.education-text,
+.english-text { 
+  padding-left: 20px;
+  padding-right: 20px;
+
+  color: #0e0e0ee0;
+}
+
